@@ -17,5 +17,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT || 22 }}
           script: |
-            cd /${{ secrets.SSH_USER }}/side-kino
+            cd /${{ secrets.SSH_USER }}/site-kino
             git pull
