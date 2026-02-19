@@ -1,2 +1,12 @@
 .iflow
-*.png
+
+# 根目录下的图片文件
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.webp
+/*.svg
+/*.bmp
+/*.ico
+*.md
